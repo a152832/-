@@ -1,0 +1,190 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.style-red{
+	color: #c81623;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+	/*居中对齐*/
+}
+.shortcut{
+			height: 31px;
+			line-height: 31px;
+			background-color: #f1f1f1;
+		}
+.shortcut li{
+	float: left;
+}
+.spacer{
+	width: 1px;
+	height:12px;
+	background-color:#666666;
+	margin: 9px 14px 0;
+		}
+@font-face {
+			/*1. 这个字体名称要注意 icomoon*/
+			font-family: 'icomoon';
+			/*2. 一定要注意路径的问题*/
+			src: url('../fonts/icomoon.eot?7kkyc2');
+			src: url('../fonts/icomoon.eot?7kkyc2#iefix') 
+			format('embedded-opentype'), 
+			url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), 
+			url('../fonts/icomoon.woff?7kkyc2') 
+			format('woff'), 
+			url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+.icomoon{
+			font-family: icomoon;
+			font-size: 16px;
+			line-height: 30px;
+}
+/*header*/
+.header{
+	position: relative;
+	height: 106px;
+	/*background-color: pink;*/
+}
+.logo{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	width: 176px;
+	height: 58px;
+}
+.logo a{
+	display: block;
+	width: 176px;
+	height: 58px;
+	background:url(../img/logo.png) no-repeat;
+	font-size: 0;
+}
+/*搜索*/
+.search{
+	position: absolute;
+	left: 340px;
+	top: 15px;
+}
+/*搜索文本*/
+.text{
+	/*float: left;*/
+	width: 434px;
+	height: 32px;
+	color: #666666;
+	padding-left: 10px;
+	border: 2px solid #b1191a;
+}
+/*搜索按钮*/
+.btn{
+	/*float: left;*/
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	border: 0;
+	color: #fff;
+}
+/*hotwords 热词盒子*/
+.hotwords{
+	position: absolute;
+	top: 60px;
+	left:340px;
+}
+.hotwords a{
+	font-size: 12px;
+	margin: 0 12px;
+}
+
+.shopcar{
+	position: absolute;
+	top: 15px;
+	right: 65px ;
+	width: 138px;
+	height: 34px;
+	background-color: #f7f7f7;
+	border: 1px solid #dfdfdf;
+	line-height: 34px;
+	text-align: center;
+}
+.car{
+	font-family: icomoon;
+	color: #dc6161;
+	margin-left: 19px;
+	margin-right: 5px;
+}
+.arrow{
+	font-family: icomoon;
+	margin-left: 10px;
+}
+.icon{
+	position: absolute;
+	top: 8px;
+	right:84px ;
+	height: 15px;
+	padding: 0 3px;
+	line-height: 15px;
+	color: #fff;
+	background-color: red;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.nav{
+	height: 45px;
+	/*background-color: pink;*/
+	border-bottom: 2px solid #b1191a;
+}
+.dropdown{
+	height: 45px;
+	width: 209px;
+	background-color: #b1191a;
+}
+.dropdown .dd{
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 45px;
+	font-size: 16px;
+}
+.dropdown .dt{
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+.navitem li{
+	float: left;
+	height: 44px;
+	margin-left: 10px;
+}
+.navitem li a{
+	line-height: 45px;
+	padding: 0 25px;
+	font-size: 16px;
+}
+.menu_item{
+	height: 33px;
+	line-height: 33px;
+	padding-left: 10px;
+}
+.menu_item a{
+	color: #FFFFFF;
+}
+.menu_item i{
+	float: right;
+	color: #fff;
+	padding-right: 10px;
+	font-family: icomoon;
+}
+.menu_item:hover{
+	background-color: #FFFFFF;
+	
+}
+/*鼠标经过li a变颜色*/
+.menu_item:hover a{
+	color:#c81623;
+}
+
